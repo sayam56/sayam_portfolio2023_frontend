@@ -38,6 +38,12 @@
 
     list-style: none;
 
+    
+    .resume_link{
+        font-weight: 550;
+        transition:  all 0.3s ease-in-out;
+    }
+
     li {
         margin: 0 1rem;
         cursor: pointer;

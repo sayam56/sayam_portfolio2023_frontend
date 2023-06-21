@@ -47,7 +47,7 @@ const Work = () => {
     <>
       <h2 className='head-text'> 
       {/* add your own quote here */}
-        Welcome To The <br/><span>Creative Exhibition</span>
+        Welcome To My <br/><span>Creative Exhibition</span>
       </h2>
 
       <div className='app__work-filter'>

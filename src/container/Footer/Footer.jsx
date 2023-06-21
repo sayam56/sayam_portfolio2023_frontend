@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 import { images } from '../../constants';
 import { AppWrap, MotionWrap } from '../../wrapper';
@@ -38,16 +38,16 @@ const Footer = () => {
 
   return (
     <>
-      <h2 className='head-text'> Let's Talk, But You First!</h2>
+      <h2 className='head-text'> Let's Talk, But <span>You First!</span></h2>
       <div className='app__footer-cards'>
         <div className='app__footer-card'>
           <img src={images.email} alt='email'/>
-          <a href='mailto:mail@aisayam.com' className='p-text'>mail@aisayam.com</a>
+          <a href='mailto:aisayam.sayam@gmail.com' className='p-text'>aisayam.sayam@gmail.com</a>
         </div>
 
         <div className='app__footer-card'>
           <img src={images.mobile} alt='mobile'/>
-          <a href='tel: +880 1721 716 139' className='p-text'>+880 1721 716 139</a>
+          <a href='tel: +1 437 557 0615' className='p-text'>+1 (437) 557-0615</a>
         </div>
       </div>
 

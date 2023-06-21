@@ -20,6 +20,12 @@ const Navbar = () => {
             <a href={`#${item}`}> {item} </a>
           </li>
         ))}
+         {['my resume'].map((item) => (
+          <li className='app__flex p-text resume_button'>
+            <div/>
+            <a className='resume_link' href='https://resume.aisayam.com/' target='_blank' rel="noreferrer"> {item} </a>
+          </li>
+        ))}
       </ul>
 
       <div className='app__navbar-menu'>
