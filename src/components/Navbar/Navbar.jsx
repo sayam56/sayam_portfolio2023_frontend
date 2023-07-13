@@ -23,7 +23,7 @@ const Navbar = () => {
          {['my resume'].map((item) => (
           <li className='app__flex p-text resume_button'>
             <div/>
-            <a className='resume_link' href='https://resume.aisayam.com/' target='_blank' rel="noreferrer"> {item} </a>
+            <a className='resume_link' href='https://resume.aisayam.com/Ali_Iktider_Resume.pdf' target='_blank' rel="noreferrer"> {item} </a>
           </li>
         ))}
       </ul>
