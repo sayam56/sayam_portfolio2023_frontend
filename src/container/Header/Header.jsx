@@ -30,14 +30,14 @@ const Header = () => {
             <span>👋</span>
             <div style={{ marginLeft: 20}}>
               <p className='p-text'> Hello, I am </p>
-              <h1 className='head-text'>Say<span>am</span></h1>
+              <h1 className='head-text'>Ali<span>Iktider</span></h1>
             </div>
           </div>
           <div className='tag-cmp app__flex'>
             {/* add your own titles here */}
             <p className='p-text'> Software Engineer </p>
             <p className='p-text'> - Web Development </p>
-            <p className='p-text'> - Test UI Automation </p>
+            <p className='p-text'> - Test Automation </p>
             <p className='p-text'> - Mobile Application Development </p>
           </div>
         </div>
