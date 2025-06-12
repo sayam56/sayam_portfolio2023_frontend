@@ -21,7 +21,7 @@ const About = () => {
     <>
       <h2 className='head-text'> 
       {/* add your own quote here */}
-        Passionate <span>Development Enthusiast</span> <br/> With An Eye For <span>Great Quality</span>
+        Passionate <span>Automation Enthusiast</span> <br/> With An Eye For <span>Great Quality</span>
       </h2>
 
       <div className='app__profiles'>
